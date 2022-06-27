@@ -5,6 +5,8 @@ import { HeaderLogoComponent } from './header-logo/header-logo.component';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
 import { HeaderNavItemComponent } from './header-nav-item/header-nav-item.component';
 import { HeaderLinkComponent } from './header-link/header-link.component';
+import { HeaderSubNavComponent } from './header-subnav/header.subnav.component';
+import { HeaderSubNavItemComponent } from './header-sub-nav-item/header-subnav-item.component';
 
 @NgModule({
   imports: [],
@@ -13,6 +15,8 @@ import { HeaderLinkComponent } from './header-link/header-link.component';
     HeaderLogoComponent,
     HeaderNavComponent,
     HeaderNavItemComponent,
+    HeaderSubNavComponent,
+    HeaderSubNavItemComponent,
     HeaderLinkComponent,
   ],
   exports: [
@@ -20,6 +24,8 @@ import { HeaderLinkComponent } from './header-link/header-link.component';
     HeaderLogoComponent,
     HeaderNavComponent,
     HeaderNavItemComponent,
+    HeaderSubNavComponent,
+    HeaderSubNavItemComponent,
     HeaderLinkComponent,
   ],
 })
